@@ -1,10 +1,3 @@
--- // <!-- -- Group 4
--- // -- Yashraj Kishorsinh Raj --8890305
--- // -- Krutikkumar Manishkumar patel --8890281
--- // -- Dhruv Raheshbhai Patel --8875613
--- // -- Rutvik italiya --8898924
--- //--  Gurkirat Singh -- 8901247 -->
-
 use raj05;
 
 
