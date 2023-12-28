@@ -1,0 +1,122 @@
+<!-- -- Group 4
+  // -- Yashraj Kishorsinh Raj --8890305
+  // -- Krutikkumar Manishkumar patel --8890281
+  // -- Dhruv Raheshbhai Patel --8875613
+  // -- Rutvik italiya --8898924
+  //--  Gurkirat Singh -- 8901247 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details Manager</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <nav class="NavBar">
+        <div id="logo"></div>
+        <div class="title">
+          <h2>POPTOS</h2>
+        </div>
+        <ul>
+          <li><a href="/update" id="Active">Update</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="head">
+        <h2 id="h2">Manage Your Details</h2>
+    </div>
+   <div class="mainx">
+    <div class="containerx">
+        <div class="forms">
+          <h3>Add Shoppers Info</h3>
+          <form action="/addOrder" method="post">
+            <input
+              type="text"
+              id="shopperID"
+              name="shopperID"
+              placeholder="Shopper ID"
+              required
+            /><br /><br />
+            <input type="text" id="name" name="name" placeholder="Name" required /><br /><br />
+            <input type="text" id="address" name="address"  placeholder="Address" required /><br /><br />
+            <input type="number" id="number" name="number"  placeholder="Phone Number" required /><br /><br />
+            <input type="email" id="email" name="email"  placeholder="E-mail" required /><br /><br />
+  
+            <input type="submit" id="btn" value="Add New Person" />
+          </form>
+        </div>
+  
+        <div class="form-update">
+          <h3>Add New Menu in Pizza</h3>
+          <form action="/NewPizza" method="post">
+            <input type="text" id="orderID" name="PizzaID" placeholder="Pizza ID" required /><br /><br />
+            <input type="text" id="orderID" name="PizzaName" placeholder="Pizza Name" required /><br /><br />
+            <input type="text" id="orderID" name="PizzaType" placeholder="Pizza Type" required /><br /><br />
+            <input type="text" id="orderID" name="PizzaPrice" placeholder="Pizza Price" required /><br /><br />
+            <input type="submit" id="btn" value="Add New One" />
+          </form>
+        </div>
+  
+        <div class="form-delete">
+          <h3>Update Pizza List</h3>
+          <form action="/UpdatePizza" method="post">
+              <input type="text" id="orderID" name="PizzaID" placeholder="Pizza ID" required /><br /><br />
+              <input type="text" id="orderID" name="PizzaName" placeholder="Pizza Name" required /><br /><br />
+              <input type="text" id="orderID" name="PizzaType" placeholder="Pizza Type" required /><br /><br />
+              <input type="text" id="orderID" name="PizzaPrice" placeholder="Pizza Price" required /><br /><br />
+              <input type="submit" id="btn" value="Update" />
+          </form>
+      </div>
+  
+        <div class="form-delete">
+          <h3>Delete Pizza List</h3>
+          <form action="/deletePizza" method="post">
+            <input
+              type="number"
+              id="deleteOrderID"
+              name="deleteOrderID" placeholder="Enter Your Pizza ID" required/><br /><br />
+            <input type="submit" id="btn" value="Delete Order" />
+          </form>
+        </div>
+      </div>
+   </div>
+
+       <!-- Footer -->
+<footer class="bg-light text-center ">
+    <!-- Grid container -->
+    <div class="container p-4">
+  
+  
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p> Yashraj Kishorsinh Raj --8890305</p>
+        <p> Krutikkumar Manishkumar patel --8890281</p>
+        <p> Dhruv Raheshbhai Patel --8875613</p>
+        <p> Rutvik italiya --8898924</p>
+        <p> Gurkirat Singh -- 8901247</p>
+      </section>
+      <!-- Section: Text -->
+  
+  
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2023 Copyright:
+      <a class="text-dark" href="https://poptos.com/">POPTOS.com</a>
+    </div>
+  </footer>
+  <!-- Footer -->
+  
+  </body>
+</html>
+
+
